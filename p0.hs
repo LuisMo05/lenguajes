@@ -5,3 +5,9 @@ factorial n = n * factorial (n - 1)
 raices a b c = [(-b+d)/t,(-b-d)/t]
     where d = sqrt (b^2 - 4*a*c)
           t = 2*a
+
+
+--funcion para fibonacci
+fibonacci 0 = 0
+fibonacci 1 = 1
+fibonacci n = fibonacci (n-1) + fibonacci (n-2)
